@@ -1,13 +1,15 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import ProjectsPage from './components/1stcomponent'
+import ProjectsPage from './components/projects-page'
+import ProjectsPage2 from './components/projects-page2'
 import './App.css'
 
 function App() {
   return(
     <div className='container'>
       <ProjectsPage/>
+      <ProjectsPage2/>
     </div>
   )
 }
