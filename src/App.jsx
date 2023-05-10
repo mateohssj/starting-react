@@ -3,19 +3,42 @@
 // import viteLogo from '/vite.svg'
 import ProjectsPage from './components/projects-page'
 import ProjectsPage2 from './components/projects-page2'
+import Button from './components/button'
+import CardsProfile from './components/e-cards'
+import LoguedUser from './components/login'
+import UnLoggedUSer from './components/unlogin'
+import ShoppingList from './components/shopping-list'
 import './App.css'
+
+
 
 function App() {
   return(
     <div className='container'>
-      <ProjectsPage/>
-      <ProjectsPage2/>
+      
     </div>
   )
 }
 
 export default App
 
+//Primeros 2 componentes
+  // <ProjectsPage/>
+  // <ProjectsPage2/>
+
+//Componente boton
+/* <h1>Welcome to my app</h1>
+<Button/> */
+
+//Componente de cards con datos de un objeto
+/* <CardsProfile/> */
+
+//Mostrar una u otra interfaz dependiendo de una condicional
+//const isRegister = false;
+//{isRegister ? (<LoguedUser/>) : (<UnLoggedUSer/>)}
+
+//Mostrar una lista dependiendo de un arreglo de objetos
+//<ShoppingList/>
 
 // return (
 //     <blockquote cite="MONTESQIEU">
